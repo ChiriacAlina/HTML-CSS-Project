@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" content="width=device-width, initial-scale=1.0">
+        <title>Proiect</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+    <header>
+        Mai aproape de natura!
+    </header>
+    <nav class="meniu">
+            <ul class="orizontal">
+                <li>
+                    <a href="Despre.noi.html">Despre noi</a>
+                </li>
+                <li>
+                    <a href="Flori.html">Flori</a>
+                </li>
+                <li>
+                    <a href="Detalii.flori.html">Detalii flori</a>
+                </li>
+                <li>
+                    <a href="Contact.html" class="active">Contact</a>
+                </li>
+            </ul>    
+    </nav>
+    <main class="formular">
+            <form action="mailto:alina_alice_pricope@yahoo.com" method="post">
+                <fieldset>
+                <legend class="legend">Contact</legend>
+                <div> 
+                    <label for="nume" class="req">Nume: </label>
+                </div>
+                <div>
+                    <input type="text" id="nume" name="nume" placeholder="Introduceti numele complet" required class="masura">
+                </div>
+                <div>
+                    <label for="prenume" class="req">Prenume: </label>  
+                </div>
+                <div>
+                    <input type="text" id="prenume" name="prenume" placeholder="Introduceti prenumele complet" required class="masura">     
+                </div>
+                <div>
+                    <label for="mesaj" class="req">Mesaj: </label>
+                </div>
+                <div>
+                    <textarea name="mesaj" id="mesaj" cols="10" rows="5" placeholder="Introduceti mesajul" required class="masura"></textarea>  
+                </div>
+                <button type="submit" class="buton">Trimite</button>
+                </fieldset>
+            </form>
+        </main>
+
+        <footer>
+            <hr>
+            <pre> Prenume: Alina    Nume: Chiriac    Clasa: HTML/CSS 05 AS </pre>
+        </footer>
+    </body>
+</html>

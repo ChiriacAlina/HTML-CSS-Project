@@ -5,4 +5,4 @@ After finalising the **HTML5/CSS3** course last year I realised a project with f
 - Detalii flori
 - Flori
 
-The other pages are fost test in GIThub.
+The other pages are for test in GIThub.
